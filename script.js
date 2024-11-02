@@ -4,7 +4,7 @@ const noteList = document.querySelector('.note-list');
 noteList.innerHTML = localStorage.getItem('note');
 btnCreate.addEventListener('click', function () {
     noteList.innerHTML += `<p class="input-box" contenteditable="true">
-    <img src="/notes-app-img/images/delete.png" alt="" class="btn-delete">
+    <img src="notes-app-img/images/delete.png" alt="" class="btn-delete">
     </p>`
     saveNote();
 })
