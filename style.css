@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #cea6fe, #7794c9);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 360px;
+}
+
+.container .title {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.title img {
+    width: 4rem;
+}
+
+.container .btn-create {
+    border-radius: 3rem;
+    cursor: pointer;
+    border: transparent;
+    background: linear-gradient(#9418fd, #571094);
+    color: #fff;
+    padding: .6rem 1.3rem;
+    width: 49%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-create img {
+    width: 1.5rem;
+}
+
+.container .input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    color: #333;
+    background: #fff;
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container .input-box img {
+    position: absolute;
+    width: 20px;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.container .note-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
